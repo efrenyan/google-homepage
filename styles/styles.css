@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  display: inline;
+  color: #000;
+  opacity: 0.75;
+  text-decoration: none;
+  font-size: 13px;
+  padding-left: 15px;
+}
+
+.topnav {
+  height: 20px;
+  padding-top: 13px;
+}
+
+.leftSide {
+  float: left;
+}
+
+.rightSide {
+  float: right;
+  padding-right: 10px;
+}
+
+.apps-icon {
+  width: 24px;
+  height: auto;
+}
+
+.signin-button {
+  background-color: #4285f4;
+  border-radius: 2px;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 5px 14px;
+}
+
+.main {
+  margin-top: 120px;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  top: 150px;
+}
+
+.sbar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  top: 180px;
+  height: 40px;
+  width: 38%;
+  font-size: 16px;
+  border-radius: 25px;
+  border: solid lightgrey 1px;
+}
+
+.buttons {
+  margin: auto;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.button-style {
+  height: 36px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5f6368;
+  font-size: 14px;
+  padding: 0 16px;
+  margin: 0 4px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background: #f2f2f2;
+  line-height: 40px;
+}
+
+.right-bot {
+  float: right;
+  margin-right: 20px;
+}
